@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D02A4A328D8D7D800A623E7 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D02A4A228D8D7D800A623E7 /* Destination.swift */; };
+		0D02A4A628D8DED000A623E7 /* AdsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D02A4A528D8DED000A623E7 /* AdsTableViewCell.swift */; };
+		0D02A4AC28D8EC5B00A623E7 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D02A4AB28D8EC5B00A623E7 /* ActivityVC.swift */; };
+		0D02A4AE28D91F0500A623E7 /* SwipingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D02A4AD28D91F0500A623E7 /* SwipingView.swift */; };
+		0D02A4B128DA2F6A00A623E7 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D02A4B028DA2F6900A623E7 /* UIHelper.swift */; };
+		0D02A4B328DA34AD00A623E7 /* TesetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D02A4B228DA34AD00A623E7 /* TesetCollectionViewCell.swift */; };
 		0D7756E328B555AB008F045C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7756E228B555AB008F045C /* AppDelegate.swift */; };
 		0D7756E528B555AB008F045C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7756E428B555AB008F045C /* SceneDelegate.swift */; };
 		0D7756E728B555AB008F045C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7756E628B555AB008F045C /* ViewController.swift */; };
@@ -47,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D02A4A228D8D7D800A623E7 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		0D02A4A528D8DED000A623E7 /* AdsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsTableViewCell.swift; sourceTree = "<group>"; };
+		0D02A4AB28D8EC5B00A623E7 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
+		0D02A4AD28D91F0500A623E7 /* SwipingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingView.swift; sourceTree = "<group>"; };
+		0D02A4B028DA2F6900A623E7 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		0D02A4B228DA34AD00A623E7 /* TesetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesetCollectionViewCell.swift; sourceTree = "<group>"; };
 		0D7756DF28B555AB008F045C /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7756E228B555AB008F045C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D7756E428B555AB008F045C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +110,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D02A4A428D8DEA800A623E7 /* HomeTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0D02A4A528D8DED000A623E7 /* AdsTableViewCell.swift */,
+			);
+			path = HomeTableViewCells;
+			sourceTree = "<group>";
+		};
+		0D02A4A728D8EAAC00A623E7 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				0D02A4AD28D91F0500A623E7 /* SwipingView.swift */,
+				0D02A4B228DA34AD00A623E7 /* TesetCollectionViewCell.swift */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		0D02A4AA28D8EC3200A623E7 /* ActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D02A4AB28D8EC5B00A623E7 /* ActivityVC.swift */,
+			);
+			path = ActivityViewController;
+			sourceTree = "<group>";
+		};
+		0D02A4AF28DA2F5900A623E7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0D02A4B028DA2F6900A623E7 /* UIHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		0D7756D628B555AB008F045C = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +169,7 @@
 				0D77572228B567B0008F045C /* Models */,
 				0D77571528B55783008F045C /* Custom Views */,
 				0D77571628B55791008F045C /* Screens */,
+				0D02A4AF28DA2F5900A623E7 /* Utilities */,
 				0D7756E228B555AB008F045C /* AppDelegate.swift */,
 				0D7756E428B555AB008F045C /* SceneDelegate.swift */,
 				0D7756E628B555AB008F045C /* ViewController.swift */,
@@ -156,6 +202,7 @@
 		0D77571528B55783008F045C /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D02A4A728D8EAAC00A623E7 /* CollectionViews */,
 				0D77572128B56527008F045C /* TableViewCells */,
 				0D77571728B5579E008F045C /* TabBarControllers */,
 			);
@@ -166,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				0D77571B28B558D0008F045C /* HomeViewController */,
+				0D02A4AA28D8EC3200A623E7 /* ActivityViewController */,
 				0D77571C28B558DB008F045C /* AccountViewController */,
 			);
 			path = Screens;
@@ -198,6 +246,7 @@
 		0D77572128B56527008F045C /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				0D02A4A428D8DEA800A623E7 /* HomeTableViewCells */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -212,6 +261,7 @@
 				0D77572C28B56863008F045C /* Prev.swift */,
 				0D77572E28B5687C008F045C /* Around.swift */,
 				0D77573028B56BB3008F045C /* ModelController.swift */,
+				0D02A4A228D8D7D800A623E7 /* Destination.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -349,15 +399,21 @@
 			files = (
 				0D77572F28B5687C008F045C /* Around.swift in Sources */,
 				0D77572528B567D8008F045C /* Ad.swift in Sources */,
+				0D02A4A328D8D7D800A623E7 /* Destination.swift in Sources */,
+				0D02A4AC28D8EC5B00A623E7 /* ActivityVC.swift in Sources */,
 				0D77571928B557DC008F045C /* UberTabBarController.swift in Sources */,
 				0D7756E728B555AB008F045C /* ViewController.swift in Sources */,
 				0D7756E328B555AB008F045C /* AppDelegate.swift in Sources */,
 				0D77573128B56BB3008F045C /* ModelController.swift in Sources */,
+				0D02A4B328DA34AD00A623E7 /* TesetCollectionViewCell.swift in Sources */,
 				0D77572028B5591E008F045C /* AccountVC.swift in Sources */,
 				0D77572728B56802008F045C /* Ride.swift in Sources */,
 				0D77572D28B56863008F045C /* Prev.swift in Sources */,
 				0D77572928B5680B008F045C /* Package.swift in Sources */,
 				0D77572B28B5684E008F045C /* Seach.swift in Sources */,
+				0D02A4A628D8DED000A623E7 /* AdsTableViewCell.swift in Sources */,
+				0D02A4AE28D91F0500A623E7 /* SwipingView.swift in Sources */,
+				0D02A4B128DA2F6A00A623E7 /* UIHelper.swift in Sources */,
 				0D77571E28B5590B008F045C /* HomeVC.swift in Sources */,
 				0D7756E528B555AB008F045C /* SceneDelegate.swift in Sources */,
 				0D7756ED28B555AB008F045C /* Uber.xcdatamodeld in Sources */,

@@ -33,4 +33,9 @@ class ModelController {
         Package(title: "Travel", icon: UIImage())
     ]
     
+    static let destinations = [
+        Destination(address: "1901 State St", city: "San Diego", state: "California"),
+        Destination(address: "2305 University Ave", city: "San Diego", state: "California")
+    ]
+    
 }
